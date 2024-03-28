@@ -1,0 +1,25 @@
+.outerBox{
+    background-color: rgba(94, 143, 235, 0.1);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.urgentText{
+    padding: 3px;
+    margin-right: auto;
+    margin-left: auto;
+    color:white;
+    font-size: 120%;
+    font-family: 'DINPro-Medium',sans-serif;;
+}
+
+.links{
+    color:#5E8FEB;
+    text-decoration: none;
+    
+}
+.outerBox:hover .links{
+    text-decoration: underline;
+}

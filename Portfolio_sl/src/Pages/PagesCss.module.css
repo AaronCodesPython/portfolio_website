@@ -1,0 +1,43 @@
+.outerDiv{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    
+}
+
+.heading{
+    color: white;
+    font-family: 'DINPro-Medium',sans-serif;
+    font-weight: 400;
+    font-size: 250%;
+}
+.subheading{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'DINPro-Medium',sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+}
+.text{
+    color: white;
+    font-family: 'DINPro-Medium',sans-serif;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: "DINPro";
+    src: url("../assets/DINPro-Black.ttf");
+}
+
+@font-face {
+    font-family: "DINPro-Light";
+    src: url("../assets/DINPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "DINPro-Medium";
+    src: url("../assets/DINPro-Medium.ttf");
+}

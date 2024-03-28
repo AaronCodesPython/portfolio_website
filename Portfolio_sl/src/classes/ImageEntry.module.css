@@ -1,0 +1,22 @@
+.image{
+    width: 100%;
+}
+.outerDiv{
+    background-color: #1F1F1F;
+    padding-top: 8px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.title{
+    color:white;
+    font-family: 'DINPro-Medium',sans-serif;;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.textWrap{
+    display: flex;
+}

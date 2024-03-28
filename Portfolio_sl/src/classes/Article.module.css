@@ -1,0 +1,19 @@
+.outerDiv{
+    background-color: #1A1A1A;
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    position: relative;
+}
+
+.heading{
+    color:white;
+    font-family: 'DINPro-Light', sans-serif;
+    
+}
+.date{
+    position: absolute;
+    font-family: 'DINPro-Light', sans-serif;
+    color:white;
+    right:10px;
+}

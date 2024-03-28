@@ -1,0 +1,9 @@
+.imageList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imageListItem{
+    width: calc(50%); 
+}

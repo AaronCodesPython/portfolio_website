@@ -1,0 +1,23 @@
+.surroundDiv{
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+}
+
+.links{
+    color:#5E8FEB;
+    text-decoration: none;
+    font-family: 'DINPro-Medium',sans-serif;
+    
+}
+.listStyle{
+    padding: 0px;
+    list-style-type: none;
+}
+.listStyle li{
+    display: inline-block;
+    padding-right: 30px;
+}
+.navbar li:last-child {
+    margin-right: 0; 
+}
