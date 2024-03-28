@@ -27,6 +27,10 @@
     font-size: 100%;
 }
 
+.image{
+    width: 100px;
+}
+
 @font-face {
     font-family: "DINPro";
     src: url("../assets/DINPro-Black.ttf");
