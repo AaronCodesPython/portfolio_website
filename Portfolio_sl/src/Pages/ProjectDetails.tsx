@@ -52,7 +52,7 @@ function ProjectDetails() {
 						<div>
                             <h1 className={styles.heading}>{article.title}</h1>
                             {article.body.map((paragraph) => (
-                                <div>
+                                <div className={styles.wrapImageDiv}>
                                     {renderBlock(paragraph, article.images)}
                                 </div>
                             ))}
@@ -67,11 +67,11 @@ function ProjectDetails() {
 
   function renderBlock(paragraph : bodyBlock, urls : string[]){
     if(paragraph._type =="block"){
-        return <h1>{paragraph.children[0].text}</h1>
+        return <p className={styles.smalltext}>{paragraph.children[0].text}</p>
     }
     else if(paragraph._type == "image"){
         index+=1;
         
-        return <img src={urls[index]} className={styles.image}/>
+        return <div style={{backgroundColor:"#1F1F1F", display:"flex"}}><img src={urls[index]} className={styles.image}/></div>
     }
   }

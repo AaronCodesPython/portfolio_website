@@ -26,11 +26,21 @@
     font-family: 'DINPro-Medium',sans-serif;
     font-size: 100%;
 }
-
-.image{
-    width: 100px;
+.smalltext{
+    color: white;
+    font-family: 'DINPro-Light',sans-serif;
+    font-size: 90%;
 }
-
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    
+}
+.wrapImageDiv{
+    display: flex;
+    
+}
 @font-face {
     font-family: "DINPro";
     src: url("../assets/DINPro-Black.ttf");

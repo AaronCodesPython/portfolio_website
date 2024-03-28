@@ -1,7 +1,9 @@
 import styles from "./BottomBar.module.css"
 function BottomBar(){
-    return <footer className={styles.outerDiv}>
-        <p>Maintained by Aaron Leonard Glaser</p>
+    return <div>
+        <div style={{height:"20px"}}></div>
+        <footer className={styles.outerDiv}>
+        <p style={{paddingTop:"20px"}}>Maintained by Aaron Leonard Glaser</p>
         <div className={styles.surroundDiv}>
             <ul className={styles.linksList}>
                 <li><a href ="https://github.com/AaronCodesPython">Github</a></li>
@@ -12,5 +14,6 @@ function BottomBar(){
             </ul>
         </div>
     </footer>
+    </div>
 }
 export default BottomBar;

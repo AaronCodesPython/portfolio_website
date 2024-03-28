@@ -23,3 +23,7 @@
 .outerBox:hover .links{
     text-decoration: underline;
 }
+
+.emailLink:active {
+    color:#a6b4d0;
+}
