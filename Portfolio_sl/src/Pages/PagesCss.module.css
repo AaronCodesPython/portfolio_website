@@ -55,3 +55,8 @@
     font-family: "DINPro-Medium";
     src: url("../assets/DINPro-Medium.ttf");
 }
+
+.sidelinks{
+    color: #5E8FEB;
+    text-decoration: none;
+}

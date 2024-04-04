@@ -5,7 +5,13 @@
     padding-right: 8px;
     position: relative;
 }
+.outerDiv:hover .heading{
+    text-decoration: underline;
+}
 
+.outerDiv:hover .date{
+    text-decoration: underline;
+}
 .heading{
     color:white;
     font-family: 'DINPro-Light', sans-serif;

@@ -12,7 +12,7 @@ title,
 publishedAt,
 _id,
 "imageUrl": image.asset->url
-}'></Images>
+} | order(publishedAt desc)'></Images>
         </div>
     );
 }

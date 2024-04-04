@@ -6,17 +6,18 @@ export default function Home(){
     return (
         <div className={styles.outerDiv}>
             <center><p className={styles.heading}>WELCOME TO MY PERSONAL WEBSITE!</p></center>
-            <p className={styles.text}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur odio velit quia vero nisi quaerat accusamus, incidunt corrupti. Maiores provident consequatur animi beatae eius, expedita blanditiis rerum harum. Aliquam, temporibus.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur odio velit quia vero nisi quaerat accusamus, incidunt corrupti. Maiores provident consequatur animi beatae eius, expedita blanditiis rerum harum. Aliquam, temporibus</p>
+            <p className={styles.text}>I'm Aaron, a 19 year old Abitur Student in Germany. <br/><br/>This year I will start my Studies 
+            in Computer Science at <a href="https://ethz.ch" className={styles.sidelinks}>ETH-Zurich</a>. I enjoy <a href="/projects" className={styles.sidelinks}>Coding</a>, <a href="/photos" className={styles.sidelinks}>Travelling</a>, <a href="/hobby" className={styles.sidelinks}>Gaming</a> and much more!
+            <br/>This website contains things I feel are interesting enough to put on the internet, enjoy!</p>
             <UrgentBox></UrgentBox>
-            <br></br>
+          
             <center><p className={styles.subheading}>LATEST POSTS</p></center>
             <Posts query='*[_type == "post"]{
                 title,
                 publishedAt,
                 _id,
                 "slug": slug.current
-              }'></Posts>
+              } | order(publishedAt desc)'></Posts>
         </div>
     );
 }
