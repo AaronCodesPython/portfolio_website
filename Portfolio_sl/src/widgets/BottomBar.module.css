@@ -1,16 +1,20 @@
-.outerDiv{
-    background-color: black;
+.outerDiv {
+    background-color: #0C0C0C;
     height: 100px;
     text-align: center;
     margin-top: auto;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
+
 .outerDiv p{
-    color:white;
+    color:rgb(151, 148, 148);
     font-family: 'DINPro-Medium',sans-serif;
 }
 .linksList{
-    color:white;
+    color:rgb(151, 148, 148);
     list-style-type: none;
     margin-right: auto;
     margin-left: auto;
@@ -24,11 +28,11 @@
     display: inline-block;
 }
 .linksList li a{
-    color:white;
+    color:rgb(151, 148, 148);
     text-decoration: none;
 }
 .linksList li a:visited{
-    color:white;
+    color:rgb(151, 148, 148);
 }
 .linksList li a:hover{
     text-decoration: underline;

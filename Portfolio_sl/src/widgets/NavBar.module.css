@@ -1,13 +1,17 @@
 .surroundDiv{
     display: flex;
     justify-content: center;
-    background-color: #262626;
+    background-color: #0c0b0b;
 }
 
 .links{
-    color:#5E8FEB;
+    color:rgb(204, 204, 204);;
     text-decoration: none;
-    font-family: 'DINPro-Medium',sans-serif;
+    font-family: 'Inter',sans-serif;
+    
+}
+.links:hover{
+    color:#EB5A3C;
     
 }
 .listStyle{

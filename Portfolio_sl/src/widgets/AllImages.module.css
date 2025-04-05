@@ -2,9 +2,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #1F1F1F;
+    background-color: #0C0C0C;
 }
 
 .imageListItem{
+    background-color: #0C0C0C;
     width: calc(50%); 
 }

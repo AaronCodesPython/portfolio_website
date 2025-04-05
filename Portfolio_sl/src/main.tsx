@@ -13,27 +13,29 @@ import TopBar from './widgets/TopBar'
 import NavBar from './widgets/NavBar'
 import BottomBar from './widgets/BottomBar'
 import ProjectDetails from './Pages/ProjectDetails'
-import HobbyScreen from './Pages/Hobby'
 
 
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
+
   <React.StrictMode>
     <BrowserRouter>
-      <div style={{minHeight:"100vh", display:"flex", flexDirection:"column"}}>
-        <TopBar></TopBar>
-        <NavBar></NavBar>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path="/projects/:projectName" element={<ProjectDetails />} />
-          <Route path='/photos' element={<Photos/>}/> 
-          <Route path='/hobby' element={<HobbyScreen/>}/> 
-        </Routes>
+        <div className='content'>
+          <TopBar></TopBar>
+            <NavBar></NavBar>
+            <Routes>
+              <Route path='/' element={<Home/>}/>
+              <Route path='/projects' element={<Projects/>}/>
+              <Route path="/projects/:projectName" element={<ProjectDetails />} />
+              <Route path='/photos' element={<Photos/>}/> 
+            
+            </Routes>
+        </div>  
         <BottomBar></BottomBar>
-      </div>  
+      
     </BrowserRouter>
+    
   </React.StrictMode>,
 )
 /*
@@ -41,4 +43,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <TopBar></TopBar>
   <NavBar></NavBar>
 </div>
+ <Route path='/hobby' element={<HobbyScreen/>}/> 
 */

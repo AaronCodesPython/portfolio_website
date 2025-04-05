@@ -13,13 +13,13 @@
     text-decoration: underline;
 }
 .heading{
-    color:white;
-    font-family: 'DINPro-Light', sans-serif;
+    color:rgb(204, 204, 204);
+    font-family: 'Inter', sans-serif;
     
 }
 .date{
     position: absolute;
-    font-family: 'DINPro-Light', sans-serif;
+    font-family: 'Inter', sans-serif;
     color:white;
     right:10px;
 }

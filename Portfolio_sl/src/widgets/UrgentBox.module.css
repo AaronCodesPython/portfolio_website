@@ -1,5 +1,5 @@
 .outerBox{
-    background-color: rgba(94, 143, 235, 0.1);
+    background-color: #782c1c;
     height: 10%;
     width: 100%;
     display: flex;
@@ -10,20 +10,19 @@
     padding: 3px;
     margin-right: auto;
     margin-left: auto;
-    color:white;
+    color:rgb(204, 204, 204);
     font-size: 120%;
     font-family: 'DINPro-Medium',sans-serif;;
 }
 
 .links{
-    color:#5E8FEB;
+    color:#EB5A3C;
     text-decoration: none;
     
 }
 .outerBox:hover .links{
     text-decoration: underline;
 }
-
-.emailLink:active {
-    color:#a6b4d0;
+.emailLink{
+    color:#EB5A3C;
 }
